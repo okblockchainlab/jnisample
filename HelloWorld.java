@@ -6,7 +6,10 @@ class HelloWorld {
     }
 
     static {
-//        System.loadLibrary("HelloWorld");
-        System.load("/Users/oak/go/src/github.com/okblockchainlab/jnisample/libHelloWorld.dylib");
+        System.loadLibrary("HelloWorld");
+//      or (on mac):
+//        System.load("/Users/oak/go/src/github.com/okblockchainlab/jnisample/libHelloWorld.dylib");
+//      or (on linux):
+//        System.load("/Users/oak/go/src/github.com/okblockchainlab/jnisample/libHelloWorld.so");
     }
 }
